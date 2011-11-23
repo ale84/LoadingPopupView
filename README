@@ -1,0 +1,12 @@
+LoadingPopupView
+
+Author: Alessio Orlando
+Language: Objective-C
+For use on iOS platforms 
+
+ Simple View which displays a loading popup with a semi-transparent black rounded rectangle as background.
+ It contains an UIActivityIndicatorView whose size is never greater then 40 by 40 px, and it is placed in the center of the popup view.
+ The loading animation is triggered by the two methods startAnimating and stopAnimating. The popup view by default  hides itself automatically when the animation is stopped. This behaviour can be change by setting the BOOL "hidesItselfWhenAnimationStops". 
+ You can optionally specify a text to be displayed under the activityIndicatorView at initialization time. The designated initializer is initWithFrame:title:
+
+Feel free to use this view in your own projects.:) 
